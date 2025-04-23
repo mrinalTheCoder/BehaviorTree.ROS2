@@ -3,6 +3,7 @@ project(behaviortree_ros2)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fPIC")
 
 set(THIS_PACKAGE_DEPS
     rclcpp
